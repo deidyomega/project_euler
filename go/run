@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cat "../Problems/$1.md";
+echo "";
+echo "";
+
+go run $1/main.go

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cat "../Problems/$1.md";
+echo "";
+echo "";
+cd $1
+# dotnet restore ## add if pulling from git
+dotnet run

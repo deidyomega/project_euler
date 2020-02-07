@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cat "../Problems/$1.md";
+echo "";
+echo "";
+
+gcc $1.c -o $1 -Wall -lm;
+./$1;
+rm $1;
